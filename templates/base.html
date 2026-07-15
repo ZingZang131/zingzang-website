@@ -5,13 +5,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZingZang | Gaming</title>
+    <title>ZingZang Gaming</title>
 
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,33 +19,32 @@
 
 <header>
 
-<div class="logo">
-    ZING<span>ZANG</span>
-</div>
+    <div class="logo">
+        ZING<span>ZANG</span>
+    </div>
 
-<nav>
+    <nav>
 
-<a href="/">Главная</a>
-<a href="/videos/">Видео</a>
-<a href="/about/">О канале</a>
-<a href="/contacts/">Контакты</a>
+        <a href="/">Главная</a>
+        <a href="/videos/">Видео</a>
+        <a href="/about/">О канале</a>
+        <a href="/contacts/">Контакты</a>
 
-</nav>
+    </nav>
 
-<a class="youtube-btn"
-href="https://www.youtube.com/@zingzang545"
-target="_blank">
+    <a class="youtube-btn"
+       href="https://www.youtube.com/@zingzang545"
+       target="_blank">
 
-YouTube
+        YouTube
 
-</a>
+    </a>
 
 </header>
 
 <main>
 
 {% block content %}
-
 {% endblock %}
 
 </main>
@@ -58,5 +56,4 @@ YouTube
 </footer>
 
 </body>
-
 </html>

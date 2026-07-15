@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="hero">
+
+    <div class="hero-left">
+
+        <p class="subtitle">YOUTUBE • GAMING • MEMES</p>
+
+        <h1>
+            Добро пожаловать в
+            <span>ZINGZANG</span>
+        </h1>
+
+        <p class="description">
+            Игры, мемы, стримы, смешные моменты и ламповая атмосфера.
+            Присоединяйся к нашему сообществу!
+        </p>
+
+        <div class="buttons">
+
+            <a class="btn"
+               href="https://www.youtube.com/@zingzang545"
+               target="_blank">
+                ▶ YouTube
+            </a>
+
+            <a class="btn-outline"
+               href="/videos/">
+                🎬 Видео
+            </a>
+
+        </div>
+
+        <div class="stats">
+
+            <div class="card">
+                <h2>100+</h2>
+                <p>Видео</p>
+            </div>
+
+            <div class="card">
+                <h2>∞</h2>
+                <p>Позитива</p>
+            </div>
+
+            <div class="card">
+                <h2>24/7</h2>
+                <p>Gaming</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="hero-right">
+
+        <div class="avatar-glow">
+            <img src="{% static 'images/avatar.png' %}" alt="avatar">
+        </div>
+
+    </div>
+
+</section>
+{% endblock %}
